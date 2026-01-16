@@ -1,6 +1,6 @@
 // 1. استدعينا useEffect
 import { useState, useEffect } from 'react'
-import ExpenseItem from './Components/ExpenseItem'
+import ExpenseItem from './components/ExpenseItem'
 
 function App() {
   
