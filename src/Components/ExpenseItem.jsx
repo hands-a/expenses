@@ -7,7 +7,7 @@ function ExpenseItem(props) {
       <div className="flex items-center gap-3">
         <span className="text-gray-900 font-bold">{props.amount} EG</span>
         
-        {/* زر الحذف: لاحظ أننا سنستلم دالة الحذف أيضاً كـ Prop */}
+
         <button 
           onClick={() => props.onDelete(props.id)}
           className="text-red-500 hover:text-red-700 font-bold px-2"
